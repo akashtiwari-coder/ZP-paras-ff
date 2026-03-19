@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ZP Paras FF</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: linear-gradient(to right, black, #1a1a1a);
+            color: white;
+        }
+
+        .card {
+            background: #111;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #ff9900;
+        }
+
+        h1, h2 {
+            color: #ff9900;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #ff9900;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        button {
+            background: #ff9900;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Hello guys I am Paras 👋</h1>
+
+    <p>
+        I am a Zone pusher in a game named Free Fire 🔥 <br>
+        I want you to subscribe my channel 🙂 <br><br>
+        <b>ZP PARAS FF</b>
+    </p>
+
+    <img src="https://i.imgur.com/2yaf2wb.png">
+</div>
+
+<div class="card">
+    <h2>About Us</h2>
+
+    <p>
+        I am creator of the website and friend of ZP Paras.
+    </p>
+
+    <p>
+        🔥 Zone Pusher <br>
+        🎮 Gamer <br>
+        🚀 Content Creator
+    </p>
+</div>
+
+<div class="card">
+    <h2>YouTube Channel</h2>
+
+    <p>Subscribe ❤️</p>
+
+    <iframe width="300" height="200"
+        src="https://www.youtube.com/embed/"
+        frameborder="0" allowfullscreen>
+    </iframe>
+
+    <br>
+
+    <!-- SUBSCRIBE BUTTON -->
+    <button onclick="subscribe()">Subscribe Now 🔥</button>
+</div>
+
+<script>
+function subscribe() {
+    alert("Thanks for subscribing ❤️");
+}
+</script>
+
+</body>
+</html>
